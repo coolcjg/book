@@ -42,7 +42,7 @@ dependencies {
     implementation 'com.google.code.gson:gson'
 
     /* 쿼리 매개변수 표시 */
-    implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
+    implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.12.0'
 
     //QueryDsl
     implementation 'com.querydsl:querydsl-jpa:5.1.0:jakarta'
