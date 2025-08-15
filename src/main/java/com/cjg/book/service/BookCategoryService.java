@@ -19,8 +19,8 @@ public class BookCategoryService {
 
     public List<BookCategory> findAllByBookBookId(Long bookId){ return bookCategoryRepository.findAllByBookBookId(bookId); }
 
-    public void deleteAllByBookBookId(Long bookId){
-        bookCategoryRepository.deleteAllByBookBookId(bookId);
+    public Long deleteAllByBookBookId(Long bookId){
+        return bookCategoryRepository.deleteAllByBookBookId(bookId);
     }
 
     public void flush(){
